@@ -113,3 +113,7 @@ It is possible to create a post and then have it be published later on. This is 
 
 If you do not wish to have automattic publishing, you can opt for a programatic aproach by sending a GET request to `/v1/posts/<userID>/post/<postID>/publish`.
 
+{% hint style="info" %}
+You will need to be authenticated with the API before you edit or publish a post! Both of these routes require `posts.manage_posts.write`.
+{% endhint %}
+
