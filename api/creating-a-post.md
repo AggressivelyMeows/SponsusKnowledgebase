@@ -107,3 +107,9 @@ The `images.src` field must be an array as Sponsus image posts are galleries. If
 
 The video src field is different to the image src field as this takes a single video url as the input.
 
+## Publishing a post at a later date
+
+It is possible to create a post and then have it be published later on. This is called a draft as the API waits until the signal to publish the post to the sponsors. You can do this in a few ways, you can set the `publish_at` field during post creation to an **UTC** ISO datetime. You can also edit a post that is in the "draft" stage to have the publish\_at field as well. If the post is not already published, then when the time reaches the publish\_at time the API will publish it.
+
+If you do not wish to have automattic publishing, you can opt for a programatic aproach by sending a GET request to `/v1/posts/<postID>/publish`.
+
