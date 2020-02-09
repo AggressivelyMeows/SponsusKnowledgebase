@@ -21,7 +21,7 @@ Authorization: APIKey
 JSON Body:
 {
     "title": "Programatic test",
-    "content": "Content",
+    "content": "This is the content of the post! It supports **Markdown** :sparkles:",
     "price_to_view": 0,
     "type": "text",
 }
