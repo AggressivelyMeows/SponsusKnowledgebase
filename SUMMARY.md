@@ -2,6 +2,10 @@
 
 * [Welcome to Sponsus!](README.md)
 
+## Guides
+
+* [Writing good looking posts](guides/writing-good-looking-posts.md)
+
 ## The API <a id="api"></a>
 
 * [Getting logged in](api/getting-logged-in.md)

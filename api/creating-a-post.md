@@ -27,6 +27,10 @@ JSON Body:
 }
 ```
 
+{% hint style="info" %}
+To find out what Markdown is and what you can do with it, [click here to be taken to the Writing a post guide](getting-logged-in.md)!
+{% endhint %}
+
 These fields are always needed in a post request as these determine how we handle the post. Title and content are pretty obvious as to what they do however the `price_to_view` field controls how much someone would need to donate or sponsor in order to get access. The type field tells Sponsus what kind of post this is. It also helps with determining the required fields from other post types such as `images` or `video`.
 
 If your request was successful, Sponsus will return this object:
@@ -91,7 +95,7 @@ Since the first example is only a basic text post, lets go deeper into the API a
 }
 ```
 
-The `images.src` field must be an array as Sponsus image posts are galleries. If you only want to show off a single image, then just put one image url in the array.
+The `images.src` field must be an array as Sponsus image posts are galleries. If you only want to show off a single image, then just put one image url in the array. Image url must be **HTTPS** urls as security is strict on Sponsus. If you need to upload images that require 
 
 ### Creating a video post
 
@@ -105,7 +109,7 @@ The `images.src` field must be an array as Sponsus image posts are galleries. If
 }
 ```
 
-The video src field is different to the image src field as this takes a single video url as the input.
+The video src field is different to the image src field as this takes a single video url as the input. The video urls that we support are YouTube, Twitch.tv \(live only\), Vimeo \(public videos for now\), and raw MP4 videos. If you try to use a url that is not supported, it will not show up on the website.
 
 ## Publishing a post at a later date
 
