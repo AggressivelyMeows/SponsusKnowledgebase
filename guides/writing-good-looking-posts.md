@@ -35,7 +35,7 @@ This allows you to feature an audio file with the options of selecting a cover i
 Images on Sponsus are unique to some platforms as we have a few more features that other Markdown websites dont support. The first big note is that images look best when they are on their own line. This means seperating the image with empty lines above and below it. This means that the post will center and resize the image to look best on any device that views your wonderful post. An example of the recommended spacing:
 
 ```text
-Honestly, dogs are pretty rad. Heres a dog pic:
+Dogs are pretty rad. Heres a dog to prove it:
 
 ![A dog pic, so adorable!](https://example.com/dog)
 
