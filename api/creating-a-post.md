@@ -28,7 +28,7 @@ JSON Body:
 ```
 
 {% hint style="info" %}
-To find out what Markdown is and what you can do with it, [click here to be taken to the Writing a post guide](getting-logged-in.md)!
+To find out what Markdown is and what you can do with it, [click here to be taken to the Writing a post guide](../guides/writing-good-looking-posts.md)!
 {% endhint %}
 
 These fields are always needed in a post request as these determine how we handle the post. Title and content are pretty obvious as to what they do however the `price_to_view` field controls how much someone would need to donate or sponsor in order to get access. The type field tells Sponsus what kind of post this is. It also helps with determining the required fields from other post types such as `images` or `video`.
@@ -115,7 +115,7 @@ The video src field is different to the image src field as this takes a single v
 
 It is possible to create a post and then have it be published later on. This is called a draft as the API waits until the signal to publish the post to the sponsors. You can do this in a few ways, you can set the `publish_at` field during post creation to an **UTC** ISO datetime. You can also edit a post that is in the "draft" stage to have the publish\_at field as well. If the post is not already published, then when the time reaches the publish\_at time the API will publish it.
 
-If you do not wish to have automattic publishing, you can opt for a programatic aproach by sending a GET request to `/v1/posts/<userID>/post/<postID>/publish`.
+If you do not wish to have automattic publishing, you can opt for a programatic aproach by sending a GET request to `/v1/posts/<userID>/post/<postID>/publish`.3123123
 
 {% hint style="info" %}
 You will need to be authenticated with the API before you edit or publish a post! Both of these routes require `posts.manage_posts.write`.
