@@ -10,7 +10,7 @@ This guide is still being written so if you have anything you wish to add, feel 
 
 Writing posts that look good is as easy as pie with Sponsus. There are some small caveats that need to be addressed however as well as some notes on how to actually write the content. But once you finish this guide, you will be ready to rock on Sponsus!
 
-## Types of post
+### Types of post
 
 Sponsus supports multiple different types of post where each one has a different layout designed to make the featured content look the best. The default type is "text" which is just the content of the post. The other types are image, video, and poll.
 
@@ -30,7 +30,7 @@ Video posts work the same as image posts however they are limited to 1 video per
 
 This allows you to feature an audio file with the options of selecting a cover image, background and more. This one is pretty straight forward as to what it does.
 
-## On the subject of images
+### On the subject of images
 
 Images on Sponsus are unique to some platforms as we have a few more features that other Markdown websites dont support. The first big note is that images look best when they are on their own line. This means seperating the image with empty lines above and below it. This means that the post will center and resize the image to look best on any device that views your wonderful post. An example of the recommended spacing:
 
