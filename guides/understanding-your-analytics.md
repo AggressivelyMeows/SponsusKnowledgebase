@@ -4,6 +4,10 @@ description: 'Analytics can be hard sometimes, thats why we wrote this guide to 
 
 # Understanding your analytics
 
+### Are my insights live?
+
+Yes and no. Depending on if there is a large amount of traffic or not, it could be instant or it might take a few minutes for insights to be generated.
+
 ### What are campaigns?
 
 Campaigns are a marketing term for a collection of social media posts. Think of it like a grouping mechanism so you can quickly see how effective your sharing was. You can post a link ending with `?utm_source=your-campaign-name` and it will track how many people viewed your profile/post with that campaign. You can put whatever you wish as the name, so long as its not too long.
