@@ -16,6 +16,10 @@ https://sponsus.org/u/cerulean?utm_source=TwitterShareExample
 
 ![](../.gitbook/assets/8pdaodiudh.png)
 
+#### Default campaigns
+
+Sometimes, Sponsus will use campaigns to help with internal statistics. If you see a campaign that you dont recognise, it is most likely an internal campaign. The best example is the Discord bot. It will send users who are interested to your profile with a campaign of `discord:profile`.
+
 ### Why cant I see all of my traffic?
 
 User privacy is one of our core values. Because of this, our analytics suite does not track people who have set the "Do Not Track" feature on most browsers or have installed adblocking software. Unfortunately, because of this your analytics may be off by 5-10%. If you want to get a more accurate number of visits, it is a good idea to consider adding 10% to the final number to account for this blind spot.

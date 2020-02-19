@@ -7,8 +7,6 @@
 * [Writing good looking posts](guides/writing-good-looking-posts.md)
 * [Understanding your analytics](guides/understanding-your-analytics.md)
 
-## Analytics
-
 ## The API <a id="api"></a>
 
 * [Getting logged in](api/getting-logged-in.md)
