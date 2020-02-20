@@ -4,9 +4,7 @@ description: 'Analytics can be hard sometimes, thats why we wrote this guide to 
 
 # Understanding your analytics
 
-### Are my insights live?
 
-Yes and no. Depending on if there is a large amount of traffic or not, it could be instant or it might take a few minutes for insights to be generated.
 
 ### What are campaigns?
 
@@ -27,4 +25,10 @@ Sometimes, Sponsus will use campaigns to help with internal statistics. If you s
 ### Why cant I see all of my traffic?
 
 User privacy is one of our core values. Because of this, our analytics suite does not track people who have set the "Do Not Track" feature on most browsers or have installed adblocking software. Unfortunately, because of this your analytics may be off by 5-10%. If you want to get a more accurate number of visits, it is a good idea to consider adding 10% to the final number to account for this blind spot.
+
+## FAQ
+
+### Are my insights live?
+
+Yes, and no. It depends on how many people are on the site at the same time. To reduce stress, we have a queue that processes requests at a constant pace. It may not show up right away, but give it a few minutes for it to process.
 
