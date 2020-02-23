@@ -10,9 +10,9 @@ description: 'Payments can be so stressful, let us answer some of your biggest w
 
 **Sponsus cannot, not during, not after, access your credit card numbers.**
 
-## What is PCI-A compliant mean? Can I plug my graphics card into Sponsus?
+## What is PCI compliant mean?
 
-PCI DSS is the global security standard for all entities that store, process, or transmit cardholder data and/or sensitive authentication data. PCI DSS sets a baseline level of protection for consumers and helps reduce fraud and data breaches across the entire payment ecosystem. It is applicable to any organization that accepts or processes payment cards.
+PCI-DSS is the global security standard for all entities that store, process, or transmit cardholder data and/or sensitive authentication data. PCI DSS sets a baseline level of protection for consumers and helps reduce fraud and data breaches across the entire payment ecosystem. It is applicable to any organization that accepts or processes payment cards.
 
 **TL;DR is that any time a company has to process sensitive data, it must do so in a secure and safe manor.**
 
