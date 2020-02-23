@@ -4,7 +4,9 @@ description: 'Analytics can be hard sometimes, thats why we wrote this guide to 
 
 # Understanding your analytics
 
+### Whats a traffic source?
 
+A traffic source is the website where users are coming from to see your content.
 
 ### What are campaigns?
 
