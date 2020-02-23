@@ -10,6 +10,17 @@ description: 'Payments can be so stressful, let us answer some of your biggest w
 
 **Sponsus cannot, not during, not after, access your credit card numbers.**
 
+## What is PCI-A compliant mean? Can I plug my graphics card into Sponsus?
+
+PCI DSS is the global security standard for all entities that store, process, or transmit cardholder data and/or sensitive authentication data. PCI DSS sets a baseline level of protection for consumers and helps reduce fraud and data breaches across the entire payment ecosystem. It is applicable to any organization that accepts or processes payment cards.
+
+**TL;DR is that any time a company has to process sensitive data, it must do so in a secure and safe manor.**
+
+Sponsus is compliant under PCI SAQ-A. This means that Sponsus does the following to ensure your datas security:  
+`Card-not-present merchants (e-commerce or mail/telephone-order), that have fully outsourced all cardholder data functions to PCI DSS compliant third-party service providers, with no electronic storage, processing, or transmission of any cardholder data on the merchant’s systems or premises.`
+
+**At no point does your credit card numbers hit our servers, they are sent away to Stripe in browser.**
+
 ## Why am I being asked to sign into my bank?
 
 The **3D Secure** standard—often known by its branded names like Visa Secure, Mastercard Identity Check, or American Express SafeKey—aims to reduce fraud and provide added security to online payments. Beginning in late 2019, banks are expected to gradually start supporting a new version of 3D Secure.
