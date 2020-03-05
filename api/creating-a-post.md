@@ -75,6 +75,34 @@ If your request was successful, Sponsus will return this object:
 The embeds field is processed after the post is created, check back after a few seconds to get the post embeds.
 {% endhint %}
 
+## Locking a post
+
+{% hint style="danger" %}
+The old method of locking posts has been deprecated for the `lock` method. Please read below as to how to use the new locking system.
+{% endhint %}
+
+Paywalling content is Sponsus's bread and butter. Its super simple to lock a post with the ability to extend it for advanced users.
+
+When making a post \(editing or creating a new one\), you can send a "lock" object. This object tells Sponsus's API how to lock a post. This is a per-post basis to give you the most flexability.
+
+```javascript
+"lock": {
+    "type": "price",
+    // must be one of "disabled", "tiers", "price"
+    "price": 10,
+    // the minimum amount in $ a user must pay per month.
+    "tiers": [
+        "1811618092527259648", // an array of tierIDs you want to lock a post to
+        "1738770542594494464" // this will be shown in the order you insert them.
+    ],
+    "allow_donations": true,
+    // if the type is price then this will include donations
+    // when working out if someone has enough to access the post.
+    "minimum_length_of_sponsorship": 4
+    // the minimum amount of months a user must sponsor in total to access
+}
+```
+
 ## Creating a media post \(Image gallery & Video\)
 
 Since the first example is only a basic text post, lets go deeper into the API and create an image or video post. Most of the code used in the first example is reused here so I will only talk about the bits that have changed. The biggest thing that has changed with our media post is the fact that we are changing the type field to be either image or video.
