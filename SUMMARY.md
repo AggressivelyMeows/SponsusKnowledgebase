@@ -6,6 +6,7 @@
 
 * [Writing good looking posts](guides/writing-good-looking-posts.md)
 * [Understanding your analytics](guides/understanding-your-analytics.md)
+* [Writing mass messages to your sponsors](guides/writing-mass-messages-to-your-sponsors.md)
 
 ## FAQ
 
