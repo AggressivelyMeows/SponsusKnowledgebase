@@ -12,6 +12,7 @@
 ## FAQ
 
 * [Payments and you](faq/payments-and-you.md)
+* [Our cookie policy](faq/our-cookie-policy.md)
 
 ## The API <a id="api"></a>
 
