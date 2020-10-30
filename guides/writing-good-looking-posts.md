@@ -1,22 +1,18 @@
 ---
-description: A guide to Sponsus's Markdown flavour
+description: A guide to Sponsus's Markdown flavour.
 ---
 
 # Writing good looking posts
-
-{% hint style="info" %}
-This guide is still being written so if you have anything you wish to add, feel free to edit it by clicking the button on the right.
-{% endhint %}
 
 Writing posts that look good is as easy as pie with Sponsus. There are some small caveats that need to be addressed however as well as some notes on how to actually write the content. But once you finish this guide, you will be ready to rock on Sponsus!
 
 ### Types of post
 
-Sponsus supports multiple different types of post where each one has a different layout designed to make the featured content look the best. The default type is "text" which is just the content of the post. The other types are image, video, and poll.
+Sponsus supports multiple different types of post where each one has a different layout designed to make the featured content look the best. The default type is "text" which is just the content of the post. The other types are image, video, audio, and poll.
 
 To change the post type you can click this dropdown and select the type:
 
-![](../.gitbook/assets/firefox_1tsb96v9r8.png)
+![](../.gitbook/assets/firefox_pkybko082x.png)
 
 #### Image posts
 
@@ -46,9 +42,9 @@ When you insert images, Sponsus will push the image to be on its own line howeve
 
 Another important factor about images on Sponsus is that you can annotate images by adding text between the square brackets. In our example above, the text "A dog pic, so adorable!" will show up below the image.
 
-### Embeds and you
+### Embeding external content on your posts
 
-Embeds are a way to share content from others sites on Sponsus. We support almost any site however there are some that get special treatment. These special websites get extra goodies when we embed them into a post. For example, you can embed a SoundCloud song, album or profile, you can also embed the Spotify player. If you so wanted, you can embed a Google Doc or even a YouTube video. 
+Embeds are a way to share content from others sites on Sponsus. We support almost any site however there are some that get special blocks. These special websites get extra goodies when we embed them into a post. For example, you can embed a SoundCloud song, album or profile, you can also embed the Spotify player. If you so wanted, you can embed a Google Doc or even a YouTube video. 
 
-To embed content into your post, all you have to do is create an empty link with a url to the content you want to embed. For example: `[](https://sponsus.org/u/cerulean)`. Notice how there is not a "!" at the start and the fact that the square brackets hold no text. This tells our server to generate an embed below the paragraph the link is in.
+To embed content into your post, all you have to do is create an empty link with a url to the content you want to embed. For example: `[](https://sponsus.org/u/cerulean)`. Notice how there is not a "!" at the start and the fact that the square brackets hold no text. This tells our server to generate an embed below the paragraph the link is in. This is effectively a link but without the text. This special syntax will ask the url for its embed and place it at the end of the paragraph the empty link was in.
 
