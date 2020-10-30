@@ -14,17 +14,25 @@ To change the post type you can click this dropdown and select the type:
 
 ![](../.gitbook/assets/firefox_pkybko082x.png)
 
-#### Image posts
+#### The types of post
 
+{% tabs %}
+{% tab title="Images post" %}
 This are the second most popular type of post on Sponsus as it allows you to feature 1 or more images on your feed as well as still give you access to write a full length text post. When creating an image post, you will be given the option of adding images under the content segment. Here you can select some images to use in the gallery or just one to feature the single image.
+{% endtab %}
 
-#### Video posts
-
+{% tab title="Video post" %}
 Video posts work the same as image posts however they are limited to 1 video per post. If you wish to embed more, you can use the image syntax with a Youtube or Vimeo link to create a video inside the post's content.
+{% endtab %}
 
-#### Audio posts
-
+{% tab title="Audio post" %}
 This allows you to feature an audio file with the options of selecting a cover image, background and more. This one is pretty straight forward as to what it does.
+{% endtab %}
+
+{% tab title="Poll post" %}
+ You can query your audience and gather feedback using this type.
+{% endtab %}
+{% endtabs %}
 
 ### On the subject of images
 
